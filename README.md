@@ -103,7 +103,7 @@ Drawing App is a PHP-based web application that enables users to create digital 
    - View all your drawings in the "View My Drawings" section
    - Click on a drawing to view it in detail
    - Delete unwanted drawings as needed
-
+     
 ## Project Structure
 
 ```
@@ -120,7 +120,9 @@ drawing-app/
 ├── style.css         # Application styling
 └── logout.php        # User logout
 ```
+4. **Screenshot:**
 
+   
 ## Author
 
 Nikitha Varghese
