@@ -1,0 +1,254 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f0f8f7;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 900px;
+  margin: 80px auto 30px;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  background-color: #00796b;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: 500;
+  transition: opacity 0.3s;
+}
+
+.navbar a:hover {
+  opacity: 0.8;
+}
+
+.welcome-message {
+  margin-right: 15px;
+}
+
+.nav-left, .nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.box {
+  text-align: center;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+}
+
+h1 {
+  margin-bottom: 10px;
+  color: #00796b;
+}
+
+h2 {
+  color: #00796b;
+  margin-bottom: 20px;
+}
+
+#controls {
+  margin-bottom: 15px;
+}
+
+canvas {
+  border: 2px solid #ccc;
+  background-color: #ffffff;
+  cursor: crosshair;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+select, input[type="text"], input[type="email"], input[type="password"], input[type="submit"], button {
+  padding: 12px 20px;
+  font-size: 14px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+  transition: border 0.3s, box-shadow 0.3s;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.form-actions input[type="submit"],
+.form-actions button,
+.actions button {
+  width: auto;
+  padding: 12px 25px;
+}
+
+select:focus, input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus {
+  border-color: #00796b;
+  box-shadow: 0 0 5px rgba(0,121,107,0.3);
+}
+
+button, input[type="submit"] {
+  background-color: #00796b;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover, button:hover {
+  background-color: #004d40;
+}
+
+.secondary {
+  background-color: #757575;
+}
+
+.secondary:hover {
+  background-color: #616161;
+}
+
+.canvas-controls {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+
+.canvas-controls button {
+  width: auto;
+  margin-right: 10px;
+}
+
+.confirmation {
+  text-align: center;
+}
+
+.confirmation-details {
+  margin: 30px 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.drawing-container {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.drawing-container img {
+  max-width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  background: white;
+}
+
+.actions {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.actions button {
+  margin: 0 10px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button-group button {
+  margin: 0 10px;
+}
+
+.error {
+  color: #d32f2f;
+  background-color: #ffebee;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.success {
+  color: #2e7d32;
+  background-color: #e8f5e9;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.welcome-box, .auth-options {
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+    margin-top: 70px;
+  }
+  
+  .navbar {
+    padding: 10px 15px;
+  }
+  
+  .form-actions, .actions, .button-group {
+    flex-direction: column;
+  }
+  
+  .form-actions input[type="submit"],
+  .form-actions button,
+  .actions button,
+  .button-group button {
+    width: 100%;
+    margin: 5px 0;
+  }
+}
