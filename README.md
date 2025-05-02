@@ -120,8 +120,15 @@ drawing-app/
 ├── style.css         # Application styling
 └── logout.php        # User logout
 ```
-4. **Screenshot:**
+## Screenshot:
+### Login Page
+![Login page](Screenshot/login_page.png)
 
+### Drawing Canvas
+![Canvas page](Screenshot/drawing_canvas_page.png)
+
+### My Drawings
+![My drawings page](Screenshot/view_drawings_page.png)
    
 ## Author
 
