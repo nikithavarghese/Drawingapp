@@ -57,7 +57,7 @@ Drawing App is a PHP-based web application that enables users to create digital 
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/drawingapp.git
+   git clone https://github.com/nikithavarghese/Drawingapp.git
    ```
 
 2. **Database Setup:**
