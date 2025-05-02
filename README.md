@@ -81,7 +81,7 @@ Drawing App is a PHP-based web application that enables users to create digital 
    - Alternatively, create a subdirectory and configure your web server accordingly
 
 5. **Access the Application:**
-   - Open your browser and navigate to `http://localhost/drawingapp`
+   - Open your browser and navigate to `http://localhost/Drawingapp`
    - You should see the home page of the Drawing App
 
 ## Usage
