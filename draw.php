@@ -9,7 +9,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $imageData = $_POST['canvasImage'];
     $user_id = $_SESSION['user_id'];
 
-    if (empty($name)) {
+    if (empty($name))
+    {
         $error = "Drawing name is required.";
     } else {
 
